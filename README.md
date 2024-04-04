@@ -2,7 +2,7 @@
 Tool for scheduling household chores, optimizing for the most equal distribution of workload among household members and over time.
 
 ## Optimization problem formulation
-The formulation of the household chore scheduling problem is inspired by the well-researched employee scheduling problem ([Glover and McMillan, 1986](https://leeds-faculty.colorado.edu/glover/fred%20pubs/171%20-%20General%20Employee%20Scheduling%20Problem%2086%20TS.pdf)). Consider the following constraints:
+Consider the following constraints:
 1. Each household chore must be scheduled at regular intervals, where the length of the intervals depends on the chore.
 2. Each chore must be scheduled the number of times given by dividing the total number of periods by the interval of the chore (floored).
 3. The household chores scheduled for a given period must each be assigned to a household member.
@@ -33,5 +33,5 @@ $$minimize \quad \max\forall_m\forall_p w_a \sum_c T_c X_{mcp} + \max \forall_{i
 
 ## Sources
 Fred Glover and Claude McMillan.
-[The General Employee Scheduling Problem: An Integration of MS and AI]([https://www.frontiersin.org/articles/10.3389/fams.2020.577050/full](https://leeds-faculty.colorado.edu/glover/fred%20pubs/171%20-%20General%20Employee%20Scheduling%20Problem%2086%20TS.pdf).
+[The General Employee Scheduling Problem: An Integration of MS and AI](https://leeds-faculty.colorado.edu/glover/fred%20pubs/171%20-%20General%20Employee%20Scheduling%20Problem%2086%20TS.pdf).
 Computers & Operations Research 13(5):563-573, January 1986.
