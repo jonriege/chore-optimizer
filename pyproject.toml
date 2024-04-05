@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "chore-optimizer"
+version = "0.1.0"
+description = ""
+authors = ["Jon Riege"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+ortools = "^9.9.3963"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+pre-commit = "^3.7.0"
+poetry = "^1.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
